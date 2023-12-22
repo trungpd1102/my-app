@@ -2,7 +2,7 @@ import { useState } from 'react';
 import SingleButton from './SingleButton';
 
 export default function CoupleButtons() {
-    const [mainCount, setMainCount] = useState(0)
+    const [mainCount, setMainCount] = useState<number>(0)
 
     function handleClick() {
         setMainCount(mainCount + 1);

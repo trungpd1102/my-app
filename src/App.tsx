@@ -5,7 +5,9 @@ import './App.css';
 // import SwitchComponent from './components/SwitchComponent/SwitchComponent';
 // import ListView from './components/ListView/ListView';
 // import CusButton from './components/CusButton/CusButton';
-import CoupleButtons from './components/CoupleButtons/CoupleButtons';
+// import CoupleButtons from './components/CoupleButtons/CoupleButtons';
+// import MovingDot from './components/MovingDot/MovingDot';
+import FeedbackForm from './components/Feedback/Feedback';
 
 function App() {
   return (
@@ -13,7 +15,8 @@ function App() {
       <header className="App-header">
         {/* <ListView></ListView>
         <CusButton></CusButton> */}
-        <CoupleButtons></CoupleButtons>
+        {/* <CoupleButtons></CoupleButtons> */}
+        <FeedbackForm></FeedbackForm>
       </header>
     </div>
   );
